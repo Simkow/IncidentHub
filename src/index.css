@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
