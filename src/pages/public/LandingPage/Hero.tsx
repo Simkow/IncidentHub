@@ -31,7 +31,7 @@ export const Hero: React.FC = () => {
             </div>
             <div className='w-full relative h-full z-40'>
                 <motion.img initial={{ opacity: 0, scale: 0, filter: 'blur(15px)' }} animate={{ opacity: 1, scale: 1, filter: 'blur(1px)' }} transition={{ duration: 0.8 }} src={BgImage} alt="Hero Background" className='w-[1200px] h-[500px] -rotate-10 scale-110 hover:scale-115 transition-all duration-1000' />
-                <motion.img initial={{ opacity: 0, scale: 0, filter: 'blur(15px)' }} animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }} transition={{ duration: 1.2 }} src={BgImage2} alt="Hero Background 2" className='w-[1200px] h-[500px] absolute top-5 left-40 -rotate-10 scale-110 hover:scale-115 transition-all duration-1000' />
+                <motion.img initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1.2 }} src={BgImage2} alt="Hero Background 2" className='w-[1200px] h-[500px] absolute top-5 left-40 -rotate-10 scale-110 hover:scale-115 transition-all duration-1000 blur-[0.5px] hover:blur-none' />
             </div>
         </main>
 

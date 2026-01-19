@@ -1,4 +1,3 @@
-import { Navbar } from "../LandingPage/Navbar"
 import { Login } from "./Login"
 
 const LoginPageMain = () => {
